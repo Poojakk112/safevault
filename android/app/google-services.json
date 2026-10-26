@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "798395798101",
+    "project_id": "safevault-pooja-c24e9",
+    "storage_bucket": "safevault-pooja-c24e9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798395798101:android:87bb76b023a9e417c9badc",
+        "android_client_info": {
+          "package_name": "com.example.safevault"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798395798101-e4nhkiseojt0tbpthf4fvuivv1rgss5g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safevault",
+            "certificate_hash": "6f8cfe9ab0643bd4e4af7b42fb19ee1c0576b6a6"
+          }
+        },
+        {
+          "client_id": "798395798101-4r30bqb4g69n19oat4eje2c4nqvjp81i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHXJPvB-txMZlCtDKIp94EMVUL2rf0BS8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798395798101-4r30bqb4g69n19oat4eje2c4nqvjp81i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

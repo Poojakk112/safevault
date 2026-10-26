@@ -22,3 +22,12 @@ subprojects {
 tasks.register<Delete>("clean") {
     delete(rootProject.layout.buildDirectory)
 }
+
+subprojects {
+    val forceCompileSdk: Project.() -> Unit = {
+        extensions.findByName("android")?.withGroovyBuilder {
+            "compileSdkVersion"(36)
+        }
+    }
+    if (state.executed) forceCompileSdk() else afterEvaluate { forceCompileSdk() }
+}
