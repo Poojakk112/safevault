@@ -11,7 +11,7 @@ class MockAuthBloc extends MockBloc<AuthEvent, AuthState> implements AuthBloc {}
 void main() {
   late MockAuthBloc bloc;
 
-  setUpAll(() => registerFallbackValue<AuthEvent>(const AuthSignOutRequested()));
+  setUpAll(() => registerFallbackValue(const AuthSignOutRequested()));
 
   setUp(() {
     bloc = MockAuthBloc();
